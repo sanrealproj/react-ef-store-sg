@@ -1,7 +1,12 @@
 import React from 'react';
-
+import CartSection from '../components/CartPage';
+import BodyInfo from '../components/Bodyinfo';
+import cartBcg from "../images/storeBcg.jpeg";
 const CartPage = () => {
-    return <div><h1> This is Cart Page</h1></div>;
+    return <>
+        <BodyInfo img ={cartBcg} />
+        <CartSection/>
+    </>;
 }
 
 
