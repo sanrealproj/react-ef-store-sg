@@ -30,7 +30,7 @@ function App() {
         <Route path="/about" component={About}/>
         <Route path="/contact" component={Contact}/>
         <Route path="/products" component={Product}/>
-        <Route path="/product:id" component={SingleProduct}/>
+        <Route path="/product/:id" component={SingleProduct}/>
         <Route path="/cart" component={Cart}/>
         <Route component={Error}/>
 

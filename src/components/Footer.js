@@ -32,10 +32,9 @@ const FooterWrapper = styled.footer`
   background: var(--darkGrey);
   color: var(--mainWhite);
 
-  position: absolute;
-  bottom: 0;
+  position: relative;
   width: 100%;
-  height: 150px;
+  height: 60px;
   background-color: #222222;
  
   bottom: 0px;
