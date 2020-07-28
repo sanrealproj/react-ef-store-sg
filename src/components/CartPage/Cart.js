@@ -8,13 +8,15 @@ import CartTotals from './CartTotals';
 
 
 const Cart = () => {
-    return <div>
-        Cart
+    return <section className="py-5">
+        <div className="container">
+            <Title   title= "Cart Items" center />
+        </div>
         <CartColumns/>
         <CartList/>
         <CartTotals/>
 
-    </div>;
+    </section>;
 }
 
 
